@@ -118,3 +118,25 @@ li{
 .card-section h3{
     font-size: larger;
 }
+
+.quote-section{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 15% ;
+}
+
+.quote-section *{
+    margin: 0%;
+}
+
+.citation{
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.quote{
+    font-style: italic;
+}
